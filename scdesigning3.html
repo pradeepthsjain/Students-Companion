@@ -1,0 +1,128 @@
+<html>
+<head>
+<title>Student's Companion</title>
+<link rel="stylesheet" href="animate.css" />
+<link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+</head>
+<style src="animate.css"></style>
+<style>
+* {
+  cursor: url('cursor2.cur'), auto;
+}
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family:'Indie Flower';
+  background: url("wood3.jpg");
+  background-size: 100% 100%;
+
+}
+@keyframes ColorChange {
+   40% {
+     background-color: #E8802F;
+     color: black;
+
+   }
+   60% {
+     background-color: white;
+     color: black;
+   }
+   80% {
+     background-color: green;
+     color: white;
+   }
+   100% {
+     background-color: #E8802F;
+     color: black;
+   }
+}
+.green {
+  color: green;
+}
+.white {
+  color: #B3B6B7;
+}
+span{
+  color: #E8802F;
+}
+.h1 {
+  margin-top: 240px;
+  font-size: 95px;
+  font-family: 'Passion One', cursive;
+
+}
+@keyframes ColorChange {
+   20% {
+     background-color: #E8802F;
+     color: white;
+
+   }
+   40% {
+     background-color: white;
+     color: black;
+   }
+   60% {
+     background-color: green;
+     color: white;
+   }
+   80% {
+     background-color: #E8802F;
+     color: white;
+   }
+   100% {
+     background-color: white;
+     color: black;
+   }
+}
+.submit {
+  background-color: white;
+  border: solid #413A39;
+  margin-top: 450px;
+  padding: 20 50 20 50;
+  color: black;
+  cursor: pointer;
+  animation: ColorChange 7s ease-in-out infinite;
+  font-size: 20px;
+}
+.submit:active {
+  cursor: url('cursor.cur'), auto;
+}
+.submit:hover {
+  animation: Colourhover 7s ease-in-out infinite;
+  background-color: #413A39;
+  color: #E36F49;
+  padding-top: 13px;
+  padding-bottom:  13px;
+  padding-right:  60px;
+  padding-left: 60px;
+}
+@keyframes Colourhover {
+  40% {
+    background-color: #413A39;
+    color: white;
+
+  }
+  60% {
+    background-color: #413A39;
+    color: white;
+  }
+  80% {
+    background-color: #413A39;
+    color: white;
+  }
+  100% {
+    background-color: #413A39;
+    color: white;
+  }
+}
+</style>
+<body>
+  <div>
+  <form class="form bounceInDown animated" action="whatdoyouwanttodo4.html">
+  <button class="submit ">Talk To Your Companion</button>
+  </form>
+  </div>
+</body>
+</html>
